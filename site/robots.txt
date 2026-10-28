@@ -1,0 +1,8 @@
+# STAGING: blocks all search engines. At launch replace this file with the two lines below.
+User-agent: *
+Disallow: /
+
+# LAUNCH VERSION:
+# User-agent: *
+# Allow: /
+# Sitemap: https://www.capeafricaelectrical.co.za/sitemap.xml

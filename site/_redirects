@@ -1,0 +1,20 @@
+# Only matters once the real domain points at this site. Sends old WordPress addresses to the new page.
+# Test each line after deploying; Cloudflare Pages is asked to keep the #section part.
+/about-us                                      /#about      301
+/about-us/                                     /#about      301
+/health-safety                                 /#health-safety 301
+/health-safety/                                /#health-safety 301
+/heating-ventilation-air-conditioning          /#services   301
+/heating-ventilation-air-conditioning/         /#services   301
+/domestic-electrical-services                  /#services   301
+/domestic-electrical-services/                 /#services   301
+/industrial-commercial-electrical-services     /#services   301
+/industrial-commercial-electrical-services/    /#services   301
+/contact-us                                    /#quote      301
+/contact-us/                                   /#quote      301
+/privacy-policy                                /#privacy    301
+/privacy-policy/                               /#privacy    301
+/cookie-policy                                 /#privacy    301
+/cookie-policy/                                /#privacy    301
+/terms-and-conditions                          /#terms      301
+/terms-and-conditions/                         /#terms      301

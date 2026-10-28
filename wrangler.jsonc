@@ -1,0 +1,10 @@
+{
+  // Static site on Cloudflare Workers (static assets). No Worker code needed.
+  "name": "silent-glade-a086",
+  "compatibility_date": "2026-10-23",
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  }
+}
